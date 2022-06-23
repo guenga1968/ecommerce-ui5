@@ -1,13 +1,13 @@
-import { Slide, Typography } from "@mui/material";
+import { Slide} from "@mui/material";
 import { Box } from "@mui/system";
 import { useEffect, useRef, useState } from "react";
 import { MessageText, PromotionsContainer } from "../../styles/promotions";
-import { Colors } from "../../styles/theme";
+
 
 const messages = [
-  "20% off on your first order!",
-  "Summer sale starts now, visit any store.",
-  "Please like and subscribe :)",
+  "20% off en tu primer compra!",
+  "Liquidación de temporada, visita nuestra tienda.",
+  "Subscribete y recibe una oferta especial.",
 ];
 export default function Promotions() {
   const containerRef = useRef();
@@ -46,7 +46,7 @@ export default function Promotions() {
         }}
       >
         <Box display="flex" justifyContent="center" alignItems="center">
-          <MessageText>
+          <MessageText sx={{textAlign:"center"}}>
             {messages[messageIndex]}
           </MessageText>
         </Box>

@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+
 import {
   Grid,
   List,
@@ -6,7 +6,6 @@ import {
   Typography,
   Button,
   Stack,
-  Container,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import { Colors } from "../../styles/theme";
@@ -30,7 +29,7 @@ export default function Footer() {
     >
       <Grid container spacing={2} justifyContent="center">
         <Grid item md={6} lg={4}>
-          <FooterTitle variant="body1">About us</FooterTitle>
+          <FooterTitle variant="body1">Nosotros</FooterTitle>
           <Typography variant="caption2">
             Lorem ipsum dolor sit amet cons adipisicing elit sed do eiusm tempor
             incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam,
@@ -48,32 +47,32 @@ export default function Footer() {
           </Box>
         </Grid>
         <Grid item md={6} lg={2}>
-          <FooterTitle variant="body1">information</FooterTitle>
+          <FooterTitle variant="body1">información</FooterTitle>
           <List>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                About Us
+                Nosotros
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Order Tracking
+                Pedidos
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Privacy &amp; Policy
+                Privacidad
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Terms &amp; Conditions
+                Términos y condiciones
               </Typography>
             </ListItemText>
           </List>
         </Grid>
         <Grid item md={6} lg={2}>
-          <FooterTitle variant="body1">my account</FooterTitle>
+          <FooterTitle variant="body1">mi cuenta</FooterTitle>
           <List>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
@@ -82,27 +81,27 @@ export default function Footer() {
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                My Cart
+                Mi carrito
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                My Account
+                Mi Cuenta
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Wishlist
+                Mis favoritos
               </Typography>
             </ListItemText>
           </List>
         </Grid>
         <Grid item md={6} lg={4}>
-          <FooterTitle variant="body1">newsletter</FooterTitle>
+          <FooterTitle variant="body1">notificaciones</FooterTitle>
           <Stack>
             <SubscribeTf
               color="primary"
-              label="Email address"
+              label="Email"
               variant="standard"
             />
             <Button
@@ -110,7 +109,7 @@ export default function Footer() {
               sx={{ mt: 4, mb: 4 }}
               variant="contained"
             >
-              Subscribe
+              Subscribirse
             </Button>
           </Stack>
         </Grid>

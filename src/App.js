@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import { Container, Typography, Box, Stack, Grid, Button } from "@mui/material";
+import { Container, Typography, Box, Stack} from "@mui/material";
 import Appbar from "./components/appbar";
 import { ThemeProvider } from "@mui/system";
 import theme from "./styles/theme";
@@ -33,7 +33,7 @@ function App() {
             <Promotions />
             <SearchBox />
             <Box display="flex" justifyContent="center" sx={{ p: 4 }}>
-              <Typography variant="h4">Our Products</Typography>
+              <Typography variant="h4">Nuestros Productos</Typography>
             </Box>
             <Products />
             <Footer />

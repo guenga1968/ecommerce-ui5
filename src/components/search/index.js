@@ -1,4 +1,4 @@
-import { Button, IconButton, Slide, TextField } from "@mui/material";
+import { IconButton, Slide, TextField } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import { Colors } from "../../styles/theme";
 import SearchIcon from "@mui/icons-material/Search";
@@ -46,7 +46,7 @@ export default function SearchBox() {
           color="secondary"
           variant="standard"
           fullWidth
-          placeholder="search..."
+          placeholder="Buscar..."
         />
         <IconButton>
                   <SearchIcon sx={{ fontSize: { xs: '2rem', md: "3rem" } }} color="secondary" />
